@@ -1,5 +1,6 @@
 ﻿namespace BattleNetPrefill.Structs
 {
+    //TODO might be faster to use the 16 byte hex string converter from SteamPrefill
     public readonly struct MD5Hash : IEquatable<MD5Hash>
     {
         /// <summary>
