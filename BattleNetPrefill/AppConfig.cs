@@ -28,10 +28,11 @@
         /// </summary>
         public static readonly string CacheDir = GetCacheDirBaseDirectories();
 
+        //TODO this needs to be behind a #if DEBUG conditional
         public static readonly DebugConfig DebugConfig = new DebugConfig
         {
             //TODO turn this into a cli flag
-            UseCdnDebugMode = true,
+            UseCdnDebugMode = false,
             CompareAgainstRealRequests = false
         };
 

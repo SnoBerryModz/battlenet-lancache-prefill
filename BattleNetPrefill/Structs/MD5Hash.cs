@@ -31,7 +31,7 @@
             MD5Hash other = (MD5Hash)obj;
             return other.lowPart == lowPart && other.highPart == highPart;
         }
-
+        
         public override string ToString()
         {
             return string.Create(32, (highPart, lowPart), static (dst, state) =>
