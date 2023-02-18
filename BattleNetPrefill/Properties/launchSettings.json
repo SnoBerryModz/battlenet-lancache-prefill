@@ -12,13 +12,9 @@
       "commandName": "Project",
       "commandLineArgs": "prefill -p wow --force"
     },
-    "Prefill Blizzard": {
+    "Prefill Warzone 2": {
       "commandName": "Project",
-      "commandLineArgs": "prefill --blizzard"
-    },
-    "Prefill Blizzard - Force": {
-      "commandName": "Project",
-      "commandLineArgs": "prefill --blizzard --force"
+      "commandLineArgs": "prefill -p auks --force"
     },
     "Prefill All - Force": {
       "commandName": "Project",

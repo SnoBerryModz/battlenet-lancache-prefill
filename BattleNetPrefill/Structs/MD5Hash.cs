@@ -61,6 +61,8 @@
             });
         }
 
+        //TODO should look into why I did things the way I did.  This looks like its low on memory usage, but consumes far more CPU time.  Were things done this way so that the 
+        // hash code calculations were still fast?  As well as the object comparisons?
         public string ToStringLower()
         {
             return string.Create(32, (highPart, lowPart), static (dst, state) =>
