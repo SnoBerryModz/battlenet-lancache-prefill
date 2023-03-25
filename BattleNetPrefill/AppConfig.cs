@@ -81,6 +81,7 @@
 
     public class DebugConfig
     {
+        //TODO change this to a flag, such as --no-download.  Implement it as a hidden flag, similar to how SteamPrefill does it.
         /// <summary>
         /// If set to true, will skip making any non-required requests, and instead record them to later be compared against for accuracy.
         /// Dramatically speeds up debugging since bandwidth use is a small fraction of the full download size (ex. 100mb vs a possible 30gb download).
